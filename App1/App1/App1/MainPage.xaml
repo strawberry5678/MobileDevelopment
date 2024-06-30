@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.MainPage">
+
+    <StackLayout VerticalOptions="CenterAndExpand" Padding="20">
+        <Label x:Name="welcomeLabel" Text="Hello, [UserFirstName]!" FontSize="Subtitle" HorizontalOptions="Center" Margin="0,0,0,20"/>
+        <Label Text="Welcome!" FontSize="Title" HorizontalOptions="Center" Margin="0,0,0,20"/>
+        <Label Text="Hello, [UserFirstName]!" FontSize="Subtitle" HorizontalOptions="Center" Margin="0,0,0,20"/>
+
+        <Button Text="View Account Balance" Clicked="OnViewAccountBalanceClicked" HorizontalOptions="FillAndExpand" Margin="0,10,0,0"/>
+        <Button Text="Transfer Between Accounts" Clicked="OnTransferBetweenAccountsClicked" HorizontalOptions="FillAndExpand" Margin="0,10,0,0"/>
+        <Button Text="Logout" Clicked="OnLogoutClicked" HorizontalOptions="FillAndExpand" Margin="0,10,0,0"/>
+    </StackLayout>
+
+</ContentPage>

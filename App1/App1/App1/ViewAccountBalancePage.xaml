@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.ViewAccountBalancePage">
+
+       <StackLayout VerticalOptions="CenterAndExpand" Padding="20">
+        <Label Text="Account Balances" FontSize="Title" HorizontalOptions="Center" Margin="0,0,0,20"/>
+        <Label Text="Current Account Balance: $5000" HorizontalOptions="Center"/>
+        <Label Text="Savings Account Balance: $10000" HorizontalOptions="Center" Margin="0,10,0,0"/>
+        
+        <Button Text="Back to Main Page" Clicked="OnBackToMainPageClicked" HorizontalOptions="FillAndExpand" Margin="0,20,0,0"/>
+    </StackLayout>
+
+
+</ContentPage>
